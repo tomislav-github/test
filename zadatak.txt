@@ -1,0 +1,34 @@
+Informacije vezane za zadatke:
+
+ZADATAK 1:
+
+1. Napraviti blog gdje će biti omogućeno:
+    1.1 Dodavanje novog korisnika i opis
+    1.2 Pojedinačni pregled korisnika i izmjena
+    1.3 Pregled svih korisnika
+    1.4 Brisanje korisnika
+
+2. Polja koja forma treba da sadrži:
+    2.1 <input type="text" name="first_name" required/>
+    2.2 <input type="text" name="last_name" required/>
+    2.3 <input type="text" name="email"/>
+    2.4 <input type="radio" name="gender"/>
+    2.5 <input type="textarea" name="description"/>
+
+ZADATAK 2:
+
+1. Napraviti custom hook za sortiranje i pretraživanje korisnika iz predhodnog zadatka.
+
+ZADATAK 3:
+
+1. Napraviti login formu.
+2. Forma treba da sadrži sledeća polja:
+    2.1 <input type="text" name="user_name" required/>
+    2.2 <input type="text" name="password" required/>
+3. Redirect na home page sa prikazom svih korisnika
+
+DODATNE INFORMACIJE:
+1. Koristiti Bootstrap ili Antd
+2. Korisnititi Redux
+3. Ako koristis Antd koristiti njihovu formu, a ako se koristi Bootstrap koristiti React hook form
+4. Koristiti json-server
